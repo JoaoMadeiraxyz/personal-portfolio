@@ -41,7 +41,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(300);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm João`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm João. I'm a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello and welcome to my portfolio! My name is João Victor, and I am from Brazil. I'm primarily a web developer, but I also have skills in web design and UI/UX design. I'm passionate about web development and web design, and I'm constantly striving to improve my skills and expand my knowledge in these areas.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
