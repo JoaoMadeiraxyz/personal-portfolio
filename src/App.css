@@ -15,6 +15,10 @@
   font-weight: 400;
 }
 
+.container {
+  justify-content: unset !important;
+}
+
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
   width: 4px; /* Largura da barra de rolagem */
@@ -158,6 +162,7 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
   width: 9%;
+  min-width: 80px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
