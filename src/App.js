@@ -7,9 +7,20 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { useEffect } from 'react';
 
 function App() {
   const [language, setLanguage] = useState("us");
+
+  const defineLanguage = () => {
+    const userLanguage = navigator.language.toLowerCase();
+
+    setLanguage(userLanguage.startsWith("pt") ? "br" : "us");
+  };
+
+  useEffect(() => {
+    defineLanguage();
+  }, []);
 
   const changeLanguage = () => {
     if (language === "us") {
