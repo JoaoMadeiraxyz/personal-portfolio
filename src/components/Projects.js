@@ -46,7 +46,7 @@ export const Projects = ({ language }) => {
   const tituloProjetosPortugues = "Projetos"
 
   const contentEnglish = "Those are some of the projects that I have worked on or am currently working on. This list includes projects from my professional career as well as some personal projects."
-  const conteudoPortugues = "Estes são alguns dos projetos em que eu trabalho ou estou trabalhando atualmente. Essa lista inclui projetos da minha carreira profissiona e também alguns projetos pessoais."
+  const conteudoPortugues = "Estes são alguns dos projetos em que eu trabalhei ou estou trabalhando atualmente. Essa lista inclui projetos da minha carreira profissional e também alguns projetos pessoais."
 
   return (
     <section className="project" id="projects">
