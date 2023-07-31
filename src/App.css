@@ -121,6 +121,36 @@ select:focus {
   }
 }
 
+@media (min-width: 1200px) {
+  .bannerTitle {
+    height: 195px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .bannerTitle {
+    height: 260px;
+  }
+}
+
+@media (max-width: 991px) {
+  .bannerTitle {
+    height: 390px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bannerTitle {
+    height: 325px;
+  }
+}
+
+@media (max-width: 375px) {
+  .bannerTitle {
+    height: 390px;
+  }
+}
+
 p.success {
   color: green;
 }
