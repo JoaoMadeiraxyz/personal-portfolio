@@ -17,6 +17,7 @@ export const Footer = () => {
               <a href="https://www.instagram.com/joaomadeiraxyz/" rel="noreferrer" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright {new Date().getFullYear()}. All Rights Reserved</p>
+            <p>Portfolio Layout: <a href="https://www.youtube.com/@webdecoded" target="_blank">webdecoded</a></p>
           </Col>
         </Row>
       </Container>

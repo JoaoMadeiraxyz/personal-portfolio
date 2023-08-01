@@ -25,21 +25,6 @@ export const Projects = ({ language }) => {
       description: "Pages Design & Wordpress Development",
       imgUrl: projImg3,
     },
-    {
-      title: "Primor Group Website",
-      description: "Pages Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Prímor Contábil",
-      description: "Pages Design & Wordpress Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Acelera MEI",
-      description: "Pages Design & Wordpress Development",
-      imgUrl: projImg3,
-    },
   ];
 
   const projectsTitleEnglish = "Projects"

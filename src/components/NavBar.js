@@ -38,6 +38,7 @@ export const NavBar = ({ language, setLanguageFunction }) => {
         <img
           src={language === "us" ? us : br}
           className="flag-icon"
+          alt="Change language icon"
           onClick={() => setLanguageFunction()}
         />
         <Navbar.Brand href="#home">
